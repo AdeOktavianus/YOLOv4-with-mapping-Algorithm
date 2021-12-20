@@ -322,3 +322,39 @@ The training performance is not fully reproduced yet, so I recommended to use Al
    My project is inspired by these previous fantastic YOLOv3 implementations:
   * [Yolov3 tensorflow](https://github.com/YunYang1994/tensorflow-yolov3)
   * [Yolov3 tf2](https://github.com/zzh8829/yolov3-tf2)
+
+### Citation
+```bash
+@INPROCEEDINGS{Saha2112:Object,
+AUTHOR="Mochammad Sahal and Ade Oktavianus Kurniawan and Rusdhianto Effendi Abdul
+Kadir",
+TITLE="Object Detection for Autonomous Vehicle using Single Camera with {YOLOv4}
+and Mapping Algorithm",
+BOOKTITLE="2021 4th International Seminar on Research of Information Technology and
+Intelligent Systems (ISRITI) (2021 4th ISRITI)",
+ADDRESS=virtual,
+DAYS=15,
+MONTH=dec,
+YEAR=2021,
+KEYWORDS="autonomous vehicle; CNN; Object Detection; YOLOv4; Mapping Algorithm",
+ABSTRACT="At this time, the development of artificial intelligence technology is
+growing rapidly. This situation is also supported because the existing
+hardware is capable of performing heavier and more complex computations
+when compared to hardware from 10 to 20 years ago. The autonomous car
+itself is an example of the development of this artificial intelligence
+technology. In autonomous cars, many algorithms are needed to create
+autonomous cars that are feasible to drive, so it is not to endanger other
+road users, for example, object recognition. The performance of object
+recognition itself is very dependent on the hardware that the system used,
+so the algorithm that system used needs to be fast, efficient, and
+accurate. So the method used is YOLOv4 to detect objects while adding a
+mapping algorithm to know the location of every object that is detected
+relative to the sensor. The model used has a precision value of 0.5723 or
+57.23 percent and recall is at a value of 0.4587 or 45.87 percent, as well
+as the addition of a mapping algorithm to determine the position of objects
+relative to the camera, and the addition does not affect the processing
+speed of the detection algorithm. object used. This method can be used for
+real-time because the detection speed is quite fast, where the average
+detection speed is 0.03860 seconds or 25.87 FPS."
+}
+```
